@@ -1,0 +1,42 @@
+## 📂 Dataset Information
+
+This project uses the **Wind Turbines Energy Generation Dataset** sourced from Kaggle.
+
+### 🔗 Dataset Links
+- **Dataset Page:**  
+  https://www.kaggle.com/datasets/ishank2005/wind-turbines-data-csv  
+
+> Note: Access to the dataset may require a Kaggle login.
+
+All dataset credits belong to the original Kaggle authors and dataset providers.
+
+---
+
+## 📊 Dataset Description
+
+The dataset contains sensor and environmental readings from wind turbine systems, used to predict the **energy generated (PE)** based on multiple engine and atmospheric parameters.
+
+### 🔹 Feature Description
+
+| Feature | Description |
+|--------|-------------|
+| **AT** | Ambient / Engine Temperature |
+| **V**  | Engine Load (Exhaust Vacuum) |
+| **AP** | Engine Power / Ambient Pressure |
+| **RH** | Relative Humidity |
+| **PE** | Energy Generation (Target Variable) |
+
+---
+
+## 🧠 Problem Statement
+
+The objective of this project is to build a **machine learning regression model** that predicts the **energy generated (PE)** by a wind turbine based on:
+
+- Engine Temperature (AT)  
+- Engine Load (V)  
+- Engine Power / Pressure (AP)  
+- Relative Humidity (RH)  
+
+This is a **supervised regression problem**.
+
+---
